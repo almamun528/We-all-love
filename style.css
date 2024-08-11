@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+nav{
+    padding: 10px 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1;
+    position: fixed;
+    background-color: transparent;
+}
+nav img{
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    text-align: end;
+}
+nav .number{
+    border: 1px solid black;
+}
+nav ul li:hover{
+    color: #536942;
+    font-weight: 800;
+  
+}
+nav .number:hover{
+    border: 2px solid  #536942;
+    color:  #536942;
+    border-radius: 5px;
+}
+/* nav ENDS */
+
+.hero1{
+    height: 550px;
+    width: 100%;
+    background-image: url("./img/header-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #f6f8f5;
+}
+/* .hero1 .content{
+    text-align: center;
+    padding-top: 160px;
+    color: aliceblue;
+} */
+.hero1 .content h3{
+    font-size: 50px;
+}
+.hero1 .content h2{
+    font-size: 79px;
+    margin-top: -15px;
+}
+.hero1 .content p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding: 10px 0px;
+}
+.hero1 .content button{
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 12px;
+    border: none;
+    color: green;
+    background-color: #ffd936;
+    cursor: pointer;
+}
+
+/* Hero area ENDS */
+
+/* OUR SERVICE AREA START */
+
+.ourService{
+    height: 500px;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+}
+.ourService img{
+    width: 300px;
+    height: auto;
+}
+
+ h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline rgb(223, 226, 17);  
+}
+.ourService .part1 .part2 .part3{
+    width: 300px;
+}
+.ourService h3{
+    font-size: 20px;
+    color: rgba(0, 128, 0, 0.699);
+    font-weight: 200;
+    line-height: 6vh;
+}
+.ourService p{
+    font-size: 14px;
+    color: rgba(33, 34, 33, 0.699);
+    font-weight: 100;
+    line-height: 3.5vh;
+}
+/* service area end */
+.quat{
+    height: 400px;
+    width: 100%;
+    padding: 50px 40px;
+    background-color:#f6f8f5 ;
+    text-align: center;
+    margin-top: 50px;
+}
+.quat .content img{
+    height: 60px;
+    width: auto;
+    margin: 20px 0px 5px 0px;
+}
+.quat .content h5{
+    font-weight: 200;
+    font-size: 14px;
+}
+.quat .content .logo{
+    height: 30px;
+    opacity: 0.3;
+}
+.quat .content p{
+    font-size: 35px;
+    color: #536942;
+    opacity: 0.7;
+
+}
+
+/* About Us area start */
+.aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    padding: 10px 130px;
+    background-image: none;
+}
+
+
+.aboutus img{
+    width: 300px;
+    box-shadow: 2px 10px 5px gray;
+}
+
+.aboutus .content h3{
+    padding: 10px 0px;
+    color: #536942;
+    opacity: 0.9;
+}
+.aboutus .content p{
+    padding: 15px 0px;
+    color: #536942;
+    opacity: 0.7;
+}
+.aboutus .content .findBTN{
+    padding: 10px 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f6f8f5;
+    text-transform: capitalize;
+}
+.aboutus .content .findBTN:hover{
+    color: #536942;
+    border: 1px solid #536942;
+}
+/* About US area END */
+/* question part start */
+.question{
+    height: 450px;
+    width: 100%;
+    background-image: url("img/footer-hero-big.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    /* text-align: center; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.question .content h2{ 
+        padding: 10px 0px;
+        font-size: 40px;
+        color: rgba(0, 128, 0, 0.705);
+        font-weight: 200;
+}
+.question .content p{ 
+    padding: 10px 0px;
+    font-size: 18px;
+    color: rgba(0, 128, 0, 0.705);
+    font-weight: 100;
+}
+.question .content .tlakBTN{
+    padding: 12px 15px;
+    margin-top: 10px;
+    color: rgba(0, 128, 0, 0.582);
+    background-color: #ffd936;
+    box-shadow: none;
+    border: none;
+}
+
+.question .content .tlakBTN:hover{
+    background-color: #ffd000;
+    color: #0f0f0f;
+    font-weight: 600;
+    box-shadow: 10px 12px 5px gray ;
+    border-radius: 10px;
+    border: 1px solid rgb(243, 243, 42)green;
+}
+/* question Area END */
+/* ============================================= */
+/* Home Page END */
+/* ============================================= */
+
+
+/* about us page start */
+
+/* banner */
+.aboutUS{
+    height: 450px;
+    width: 100%;
+    margin: 40px 0px;
+    background-image: url('./img/header-hero-1222222.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+.aboutUS h2{
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 15%;
+    margin-left: 45%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    position: absolute;
+    color: #536942;
+}
+/* banner end */
+
+/* hero part 1 */
+.aboutUSPart2{
+    height: 600px;
+    width: 100%;
+    padding: 30px 40px;
+    text-align: center;
+    margin-bottom: 400px;
+}
+.aboutUSPart2 .textP{
+    font-size: 50px;
+    color: #536942;
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    opacity: 0.7;
+}
+.aboutUSPart2 .mother{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #536942;
+    margin-top: 20px;
+    line-height: 20px;
+    opacity: 0.8;
+}
+
+
+/* about us page ENd */
+
+
+/* Service Page Starts From Here */
+
+.ServiceBanner{
+    height: 400px;
+    width: 100%;
+    background-image: url("./img/services-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+.ServiceBanner .divText h2{
+    text-align: center;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 50%;
+    font-size: 45px;
+}
+/* banner END */
+
+/* Service area Start */
+
+.ServiceArea{
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 25px;
+    color: #536942;
+    
+}
+
+.ServiceArea .service1 img{
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 10px gray;
+    border-radius: 20px;
+
+} 
+
+.ServiceArea .service1 .serviceContent{
+    float: right;
+    width: 50%;
+    margin: 100px 0px;
+}
+.ServiceArea .service1 .serviceContent p{
+    font-size: 16px;
+    line-height: 4vh;
+}
+.ServiceArea .service1 .serviceContent p span{
+    font-size: 30px;
+    
+}
+.ServiceBTN{
+    color: #536942;
+    padding: 12px 18px;
+    background-color: #f6f8f5;
+    border: 1px solid black;
+}
+.ServiceBTN:hover{
+    border: 1px solid green;
+    font-size: xx-small;
+}
+#service2{
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    color: #536942;
+    gap: 110px;
+    margin-bottom: 30px;
+}
+#service2 img{
+    box-shadow: 10px 5px 10px gray;
+    border-radius: 20px;
+}
+
+/* Service 1 nad 2 END */
+/* Why Love Nature Section Starts */
+.whyLoveNature{
+    height: 500px;
+    width: 100%;
+    background-color: #f6f8f5;
+    padding-top: 50px;
+    
+
+}
+.whyLoveNature .left{
+    width: 40%;
+    margin: 0 auto;
+}
+.whyLoveNature .right{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-self: right;
+    gap: 20px;
+}
+.whyLoveNature .right img{
+    border-radius: 50%;
+    width: 200px;
+}
+.whyLoveNature .right p{
+ text-align: center;
+ 
+}
+/* Service Page END From Here */
+
+/* contact Us Start */
+
+.contactBanner{
+    background-image: url("./img/contact-hero_About\ US.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    height: 350px;
+    width: 100%;
+    margin: 20px 0px;
+
+}
+.contactBanner p{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 50%;
+    font-size: 35px;
+    color: #536942;
+}
+
+.contactMaainArea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    height: 450px;
+    width: auto;
+    color: #536942;
+}
+.contactMaainArea .left p{
+    font-size: 30px;
+    
+}
+.contactMaainArea .left span{
+    font-size: 20px;
+    
+}
+.contactMaainArea .left{
+    margin-left: 30%;
+}
+.contactMaainArea .right{
+    margin-right: 30%;
+}
+.contactMaainArea .right span{
+    font-size: 30px;
+    line-height: 40px;
+}
+.contactMaainArea .right ul li {
+    padding: 15px 0px;
+}
+.contactMaainArea .right ul li input{
+    border: none;
+    border-bottom: 1px solid yellowgreen;
+    font-size: 16px; 
+}
+#btnSumbite input{
+    border-bottom: none;
+    padding: 10px 18px;
+    border: 1px solid black;
+    color: #536942;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+/* contace area imput section closed */
+
+/* member section start */
+
+.lastSection{
+    background-color: #f6f8f5;
+    text-align: center;
+    height: 550px;
+    width: auto;
+    padding-top: 40px;
+}
+.lastSection .lastText p{
+    font-size: 30px;
+    color: #536942;
+    padding-bottom: 20px;
+}
+.imageArea img{
+   padding: 10px 10px 10px 20px;
+}
+
+/* contact Us END */
+
+
+/* Footer area start */
+
+footer{
+    /* position: absolute; */
+    /* margin-top: 40%; */
+    margin-left: 0%;
+    padding: 20px 30px;
+    color: #536942;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #5369422d;
+
+}
+.footerList ul li{
+    display: inline-block;
+    padding-left: 12px;
+    cursor: pointer;   
+}
+footer .footerImg{
+    width: 80px;
+    height: 100px;
+    cursor: pointer;
+}
+
+footer .footerRightText{
+    font-size: 16px;
+    word-spacing: 5px;
+}
+/* Footer area END */
